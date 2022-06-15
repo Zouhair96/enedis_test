@@ -1,3 +1,4 @@
 1/Vous souhaitez  modifier le message du commit. 
-
-git commit --amend -m “New commit message”
+    $ git commit --amend -m “New commit message”
+Then force the push to see the change on the github and change the historic
+    $ git push --force origin master
